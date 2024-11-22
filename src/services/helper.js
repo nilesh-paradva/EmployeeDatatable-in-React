@@ -1,0 +1,1 @@
+export const GetStorage = () => JSON.parse(localStorage.getItem("EmployeeView")) || [];

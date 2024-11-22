@@ -1,0 +1,12 @@
+.dropdown-menu{
+    padding: 0px !important;
+    min-width:0% !important;
+}
+.dropdown-toggle::after{
+    display: none !important;
+}
+.dropdown-toggle {
+    background-color: transparent !important;
+    border : none !important;
+    color: black !important;
+}
