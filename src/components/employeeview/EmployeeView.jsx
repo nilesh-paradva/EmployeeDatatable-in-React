@@ -51,7 +51,7 @@ const EmployeeView = () => {
                                     <h2 className="text-2xl font-bold text-center mb-3 py-2 rounded-lg text-white bg-blue-800">Employee List</h2>
                                     <div className="home-add-btn flex items-center justify-center">
                                         <Link to="/" className="px-3 py-2 bg-blue-700 text-white rounded-lg inline-block me-2"><i className="fa-solid fa-house"></i></Link>
-                                        <Link to="/employeeform" className="px-2 py-1 bg-blue-700 text-white rounded-lg text-2xl me-2"><i className="fa-solid fa-cart-plus"></i></Link>
+                                        <Link to="/employeeform" className="px-2 py-1 bg-blue-700 text-white rounded-lg text-2xl me-2"><i className="fa-solid fa-user-plus"></i></Link>
                                     </div>
                                 </div>
                                 <input type="text" placeholder="Search..." className="mt-3 px-3 py-2 border rounded-lg mb-3 outline-none" value={Search} onChange={handleSearch} />
