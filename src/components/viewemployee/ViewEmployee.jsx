@@ -15,7 +15,7 @@ const ViewEmployee = () => {
             <Container>
                 <Row>
                     <div className="col-12 flex items-center justify-center h-screen">
-                        <div className="col-4">
+                        <div className="col-lg-4">
                             <div className="viewBackbtn flex items-center justify-center mb-4">
                                 <Link to="/" className="px-3 py-2 bg-blue-700 text-white rounded-lg inline-block me-3 shadow-lg"><i className="fa-solid fa-house"></i></Link>
                                 <Link to="/employeeform" className="px-2 py-1 bg-blue-700 text-white rounded-lg text-2xl me-3 shadow-lg"><i className="fa-solid fa-user-plus"></i></Link>

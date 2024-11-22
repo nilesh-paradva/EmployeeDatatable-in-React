@@ -42,8 +42,8 @@ const EmployeeEdit = () => {
                 <Container>
                     <Row>
                         <div className="col-12 flex items-center justify-center h-screen">
-                            <div className="col-6">
-                                <div className="bg-white rounded-lg p-3 shadow-lg border ">
+                            <div className="col-lg-">
+                                <div className="bg-white rounded-lg p-3 shadow-lg border overflow-x-scroll">
                                     <h2 className="text-2xl font-bold text-center text-white bg-blue-700 py-2 rounded-lg mb-3">Employee Edit Form</h2>
                                     <div className="dis-btn text-center flex items-center justify-center">
                                         <Link to={'/'} className="px-3 py-2 bg-[#0f2573] hover:bg-[#1b2859] transition-all text-white rounded-lg mb-2 me-2"><i className="fa-solid fa-house"></i></Link>
