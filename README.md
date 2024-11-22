@@ -1,6 +1,6 @@
 <h1 align="center"> Employee Data Table Project Using React</h1>
 
-[![Watch the video](https://github.com/user-attachments/assets/3b312157-7631-47f8-b728-e1b46120c7bf)](https://github.com/user-attachments/assets/f186a8b7-2f77-4937-a4d6-d643f04785bb)
+[![Watch the video](https://github.com/user-attachments/assets/c8522097-7bbb-48bd-8bfc-20dba27f4605)](https://github.com/user-attachments/assets/c8522097-7bbb-48bd-8bfc-20dba27f4605)
 
 <h3>Project Objectives:-</h3>
 <p>Develop an interactive Employee Data Table using React. The table should display employee information with functionalities for sorting, filtering, and searching.</p>
