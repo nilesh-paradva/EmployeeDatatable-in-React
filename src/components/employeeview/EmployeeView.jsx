@@ -78,14 +78,14 @@ const EmployeeView = () => {
                                                     </th>
                                                     <th className="border px-4 py-2">Age</th>
                                                     <th className="border px-4 py-2">
-                                                        <DropdownButton id="dropdown-basic-button" title={<span className="font-bold">Department <i className="fa-solid fa-arrows-up-down ps-2"></i></span>} className="p-0 m-0">
+                                                        <DropdownButton id="dropdown-basic-button" title={<span className="font-bold">Department <i className="fa-solid fa-filter"></i></span>} className="p-0 m-0">
                                                             <Dropdown.Item href="#/action-1" className="text-center !rounded-lg" onClick={() => handleSort('asc', 'department')}><i className="fa-solid fa-arrow-down-a-z"></i></Dropdown.Item>
                                                             <Dropdown.Item href="#/action-2" className="text-center !rounded-lg" onClick={() => handleSort('dsc', 'department')}><i className="fa-solid fa-arrow-up-z-a"></i></Dropdown.Item>
                                                             {departments.map((name, index) => (<Dropdown.Item key={index} href={`#/action-${index + 3}`} className="text-center !rounded-lg" onClick={() => DepartmentFilter(name)}>{name || "All"}</Dropdown.Item>))}
                                                         </DropdownButton>
                                                     </th>
                                                     <th className="border px-4 py-2">
-                                                        <DropdownButton id="dropdown-basic-button" title={<span className="font-bold">Position <i className="fa-solid fa-arrows-up-down ps-2"></i></span>} className="p-0 m-0">
+                                                        <DropdownButton id="dropdown-basic-button" title={<span className="font-bold">Position <i className="fa-solid fa-filter"></i></span>} className="p-0 m-0">
                                                             <Dropdown.Item href="#/action-1" className="text-center !rounded-lg" onClick={() => handleSort('asc', 'position')}><i className="fa-solid fa-arrow-down-a-z"></i></Dropdown.Item>
                                                             <Dropdown.Item href="#/action-2" className="text-center !rounded-lg" onClick={() => handleSort('dsc', 'position')}><i className="fa-solid fa-arrow-up-z-a"></i></Dropdown.Item>
                                                             {position.map((name, index) => (<Dropdown.Item key={index} href={`#/action-${index + 3}`} className="text-center !rounded-lg" onClick={() => PositionFilter(name)}>{name || "All"}</Dropdown.Item>))}
