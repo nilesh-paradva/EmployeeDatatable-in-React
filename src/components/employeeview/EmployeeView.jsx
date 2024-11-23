@@ -111,7 +111,7 @@ const EmployeeView = () => {
                                                         <td className="border px-4 py-3">{emp.position}</td>
                                                         <td className="border px-4 py-3">{emp.salary}</td>
                                                         <td className="border px-4 py-3">{emp.email}</td>
-                                                        <td className="border px-4 py-3">
+                                                        <td className="border px-4 py-3 flex items-center justify-center">
                                                             <button className="bg-green-700 p-2 px-3 rounded-lg me-2 text-white" onClick={() => empView(emp.id)}><i className="fa-solid fa-eye"></i></button>
                                                             <button className="bg-blue-700 p-2 px-3 rounded-lg me-2 text-white" onClick={() => empEdit(emp.id)}><i className="fa-solid fa-pen-to-square"></i></button>
                                                             <a href="#" className="bg-red-700 p-2 px-3 rounded-lg text-white" onClick={() => empDelete(emp.id)}><i className="fa-solid fa-trash"></i></a>
