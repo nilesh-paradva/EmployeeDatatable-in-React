@@ -1,6 +1,12 @@
 .dropdown-menu{
     padding: 0px !important;
     min-width:0% !important;
+    z-index: 999 !important;
+    height: 100px !important;
+    overflow-y: scroll !important;
+}
+.dropdown-menu::-webkit-scrollbar-thumb{
+    border-radius: 70%;
 }
 .dropdown-toggle::after{
     display: none !important;
