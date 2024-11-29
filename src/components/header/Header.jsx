@@ -1,5 +1,5 @@
 import { Container, Row } from "react-bootstrap"
-import LogoImage from "/public/images/logo/employeeform.png"
+import LogoImage from "../../assets/images/logo/employeeform.png"
 import { Link } from "react-router-dom"
 
 const Header = () => {
